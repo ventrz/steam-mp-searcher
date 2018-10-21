@@ -59,6 +59,7 @@ export class App extends React.Component<{}, IState> {
     this.setState({
       isLoading: false,
       error: true,
+      games: null
     })
 
   loadGames = async (urls: string[]) => {
